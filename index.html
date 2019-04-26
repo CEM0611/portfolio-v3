@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--
+-Cristian Mendoza
+This is the main .html file in which the portfolio website is based on.
+From here, the metaphorical backbone of the website's design and function
+is made. To use more varied designs and colors in a cleaner way than HTML,
+you can create a CSS stylesheet as such by making a .css file, putting in
+the code you want, then proceeding to link it to the main .html file as such
+by putting it inside the <head> tag:
+
+<head>
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+One last thing that I hadn't known I needed was the <meta> tag that specifies
+the character set in which the webpage will be using and other details.
+This is also put into the <head> tag as such:
+
+<head>
+<meta charset="UTF-8">
+</head>
+
+Resources used:
+https://github.com/ For hosting on repository
+Code Academy Courses
+https://html-cleaner.com/ For cleaning up unnecessary mistakes in code
+https://gist.github.com/cmalven/1885287 For reference
+https://validator.w3.org/#validate_by_input For checking on validation of this HTML file
+-->
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Cristian's Portfolio</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+	<!--
+	Video found below
+	Source of video: https://www.youtube.com/watch?v=2eN58_TDA2I
+	-->
+    <video autoplay muted loop id="myVideo">
+      <source src="clouds.mp4" type="video/mp4">
+    </video>
+  </head>
+  
+  <body>
+    <div id="layout">
+	  <div id="audio">
+	   <audio controls>
+	     <source src="day_ambience.mp3" type="audio/mpeg">
+	     Your browser does not support the audio element.
+	   </audio> 
+	  </div>
+	  <div id="title">
+	    <!--
+		.svg found below with pasted properties from InkScape
+		-->
+	    <svg id="cloud">
+		   xmlns:dc="http://purl.org/dc/elements/1.1/"
+		   xmlns:cc="http://creativecommons.org/ns#"
+		   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		   xmlns:svg="http://www.w3.org/2000/svg"
+		   xmlns="http://www.w3.org/2000/svg"
+		   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+		   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+		   width="210mm"
+		   height="297mm"
+		   viewBox="0 0 210 297"
+		   version="1.1"
+		   id="svg8"
+		   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+		   sodipodi:docname="cloud.svg">
+		  <title
+			 id="title30">cloud</title>
+		  <defs
+			 id="defs2">
+			<inkscape:path-effect
+			   effect="bspline"
+			   id="path-effect28"
+			   is_visible="true"
+			   weight="33.333333"
+			   steps="2"
+			   helper_size="0"
+			   apply_no_weight="true"
+			   apply_with_weight="true"
+			   only_selected="false" />
+			<inkscape:path-effect
+			   effect="bspline"
+			   id="path-effect24"
+			   is_visible="true"
+			   weight="33.333333"
+			   steps="2"
+			   helper_size="0"
+			   apply_no_weight="true"
+			   apply_with_weight="true"
+			   only_selected="false" />
+		  </defs>
+		  <sodipodi:namedview
+			 id="base"
+			 pagecolor="#ffffff"
+			 bordercolor="#666666"
+			 borderopacity="1.0"
+			 inkscape:pageopacity="0.0"
+			 inkscape:pageshadow="2"
+			 inkscape:zoom="0.98994949"
+			 inkscape:cx="189.941"
+			 inkscape:cy="793.00841"
+			 inkscape:document-units="mm"
+			 inkscape:current-layer="layer1"
+			 showgrid="false"
+			 inkscape:window-width="1920"
+			 inkscape:window-height="1018"
+			 inkscape:window-x="-8"
+			 inkscape:window-y="-8"
+			 inkscape:window-maximized="1" />
+		  <metadata
+			 id="metadata5">
+			<rdf:RDF>
+			  <cc:Work
+				 rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type
+				   rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+				<dc:title>cloud</dc:title>
+			  </cc:Work>
+			</rdf:RDF>
+		  </metadata>
+		  <g
+			 inkscape:label="Layer 1"
+			 inkscape:groupmode="layer"
+			 id="layer1">
+			<path
+			   style="fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+			   d="M 33.854294,117.97379 C 18.619771,113.92012 18.263412,97.616674 23.163411,84.609633 28.06341,71.602592 38.219812,61.891646 47.395924,57.838186 c 9.176113,-4.05346 17.372594,-2.4498 26.236853,1.158273 8.864258,3.608072 18.39711,9.220872 27.840693,8.107139 9.44359,-1.113734 18.7981,-8.953704 29.39961,-13.229895 10.6015,-4.27619 22.45081,-4.988931 31.80501,-0.757285 9.3542,4.231646 16.21428,13.408116 22.80707,13.452511 6.59278,0.0444 12.91813,-9.042727 22.71775,-10.868983 9.79962,-1.826255 23.07445,3.608407 29.97884,13.497154 6.90439,9.888746 7.43893,24.232353 -4.58826,34.38874 -12.02718,10.15638 -36.61554,16.12529 -59.42274,15.76896 -22.80721,-0.35634 -43.83215,-7.03799 -69.40098,-6.28077 -25.568822,0.75723 -55.680954,8.95343 -70.915476,4.89976 z"
+			   id="path26"
+			   inkscape:connector-curvature="0"
+			   inkscape:path-effect="#path-effect28"
+			   inkscape:original-d="M 18.976136,130.22381 C 18.620042,113.92011 18.263682,97.616668 17.907058,81.31349 28.063404,71.602586 38.219805,61.891639 48.375784,52.181111 c 8.196312,1.603312 16.392794,3.20697 24.588795,4.810853 9.532641,5.612254 19.065491,11.225056 28.597841,16.83798 9.35462,-7.840105 18.70913,-15.680076 28.0633,-23.519717 11.84885,-0.712963 23.69816,-1.425702 35.54685,-2.138157 6.86002,9.175771 13.7201,18.352241 20.57975,27.528761 6.32567,-9.087472 12.65102,-18.174594 18.97614,-27.261492 13.2742,5.434034 26.54903,10.868695 39.82315,16.30344 0.5348,14.343057 1.06935,28.686664 1.60362,43.030391 -24.58897,5.96886 -49.17732,11.93778 -73.76639,17.90706 -21.0252,-6.68209 -42.05014,-13.36374 -63.0756,-20.04521 -30.112342,8.19606 -60.224473,16.39226 -90.337104,24.58879 z"
+			   transform="matrix(0.91736825,0,0,0.79166,-17.847753,-14.667167)" />
+		  </g>
+		</svg>
+		<!--
+		Canvas found below
+		-->
+		<canvas id="myCanvas" width="1250" height="80" >
+		Your browser does not support the HTML5 canvas tag.</canvas>
+
+		<script>
+		// Creates stroke text with the string "Cristian Mendoza" to be written with it
+		var c = document.getElementById("myCanvas");
+		var ctx = c.getContext("2d");
+		ctx.font = "70px Verdana";
+		ctx.strokeText("Cristian Mendoza",350,70);
+		
+		// Creates a gradient that looks like a sun
+		var c = document.getElementById("myCanvas");
+		var ctx = c.getContext("2d");
+		var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 150);
+		grd.addColorStop(0, "yellow");
+		grd.addColorStop(1, "#96beff");
+		ctx.fillStyle = grd;
+		ctx.fillRect(0, 0, 300, 90); 
+		</script>
+
+	  </div>
+	  <div id="picinfo">
+		<img src="Me.jpg" alt="A picture of Cristian Mendoza" height="200" width="200"/>
+		
+		<p><strong>Profiles</strong></p>
+		<p><a href="https://www.codecademy.com/cem0611">Code Academy</a></p>
+		<p><a href="https://www.hackerrank.com/cemendoza0611">Hacker Rank</a></p>
+		<!--
+		Fields_Report.pdf found below
+		-->
+		<p><a href="Fields_Report.pdf">Fields Report</a></p>
+		<p><a href="accessibility.html">Accessibility</a></p>
+	  </div>
+	  <div id="body">
+		<h2 class="tnr">About me</h2>
+		<p>I'm a third year college student and I'm currently majoring in Software Engineering at Florida Gulf Coast University.<br>	
+			I'm excited to learn all that I can about coding so that I can not only be proficient in my line of work, but also in personal <br>
+			projects whenever I have a good idea in mind! As for coding in general, I'm taking some introductory courses online as<br>
+			required by my 'Introduction to Computer Science' class. I'm looking forward to completing this class as well as the<br>
+			online courses I'm currently partaking in!</p>
+			
+		<h2 class="tnr">Education Experience</h2>
+		<ul>
+		  <li>Currently taking an introductory Javascript course at Hacker Rank</li>	
+		  <li>Completed 'Learn CSS' course at Code Academy</li>	  
+		  <li>Completed 'Introduction to HTML' course at Code Academy</li>
+		</ul>
+	  </div>
+	  <div id="work">
+		<h2 class="workex">Work Examples From Mentioned Courses</h2>
+			
+		<h3>HTML</h3>
+		<img src="HTML_EXAMPLE2.PNG" alt="A work example of HTML" height="500" width="850"/>
+			
+		<h3>CSS</h3>
+		<img src="CSS_EXAMPLE1.PNG" alt="A work example of CSS" height="500" width="850"/>
+			
+		<h3>Javascript</h3>
+		<img src="JAVASCRIPT_EXAMPLE1.PNG" alt="A work example of Javascript" height="500" width="600"/>
+			
+		<h2 class="tnr">Top Accomplishments</h2>
+			
+		<ul>
+		  <li>Creating this website</li>
+		  <li>Completed three courses at Code Academy</li>
+		  <li>Enrolling in Florida Gulf Coast University for Software Engineering</li>
+		</ul>
+	  </div>
+	</div>
+  </body>
+
+</html>

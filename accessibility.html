@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Accessibility</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+	<!--
+	Video found below
+	Source of video: https://www.youtube.com/watch?v=2eN58_TDA2I
+	-->
+    <video autoplay muted loop id="myVideo">
+      <source src="clouds.mp4" type="video/mp4">
+    </video>
+	<script>
+	function yesno(value) {
+	if (value == 1) {
+		alert("Thanks!");
+		}
+	else
+		{
+		alert("Sorry!");
+		}
+	}
+	</script>
+  </head>
+  
+  <body>
+    <div id="accessblock">
+	  <div id="titleacc">
+	    <h1>Accessibility Section</h1>
+	  </div>
+	  <div id="acclist">
+	    <ul>
+		  <h2>Topics</h2>
+		  <li><a href="accessibility.html#HTMLCSS">HTML and CSS</a></li>
+		  <li><a href="accessibility.html#IMGVEC">Images and Vectors</a></li>
+		  <li><a href="accessibility.html#NAVLINK">Navigation and Links</a></li>
+		  <li><a href="accessibility.html#VIDSOUND">Video and Sound</a></li>
+		</ul>
+	  </div>
+	  <div id="acctext">
+		  <a id="HTMLCSS" name="HTMLCSS"></a><h2>HTML and CSS<h2>
+		  <p>This website was built from basic HTML tags and elements with Basic CSS involved as well. Colors were chosen with Google's built-in hex color picker for its search
+		  engine and HTML/CSS knowledge was obtained from w3schools resources and my COP 1500 course</p>
+		  <a id="IMGVEC" name="IMGVEC"></a><h2>Images and Vectors<h2>
+		  <p>The picture on the left on the main page is my portrait. The gradients and vectors
+		  were made using imported code from a vector I've created myself with InkScape and the gradient was created with JavaScript.</p>
+		  <a id="NAVLINK" name="NAVLINK"></a><h2>Navigation and Links<h2>
+		  <p>The href and respective media tag properties were used mainly to link resources together such as the Fields Report and this accessibility section to allow for seamless navigation and
+		  presentation. </p>
+		  <a id="VIDSOUND" name="VIDSOUND"></a><h2>Video and Sound<h2>
+		  <p>The video was taken from <a href="https://www.youtube.com/watch?v=2eN58_TDA2I">here</a> using a video downloading/cropping website and I clipped it to the duration
+		  that was suitable to me, used the video tag with the "muted", "loop", and "autoplay" and set it as the background of the site. The audio from <a href="https://www.youtube.com/watch?v=2eN58_TDA2I">here</a> 
+		  playing for the website was obtained using the same method, but using an youtube to mp3 download site.
+		  <h2>Did you enjoy this website?</h2>
+		  <label for="yes">Decision time!</label>
+		  <button class="yes" onClick="yesno(1)">Yes!</button>
+		  <button class="no" onClick="yesno(0)">No!</button>
+	  </div>
+	</div>
+  </body>
+
+</html>

@@ -1,0 +1,133 @@
+/* -Cristian Mendoza
+
+This file contains CSS code that the index.html file uses in order
+to assign different font sizes and styles to elements such as text and
+headings within the .html file. It also can be used in other ways such as
+setting a background color to the entire page like so:
+
+body {
+background-color: #"hex-value of color without quotes"
+}
+
+Resources used:
+https://www.wikihow.com/Set-Background-Color-in-HTML For learning how to set the background color of a webpage with CSS
+https://websitesetup.org/web-safe-fonts-html-css/ For choosing font styles
+https://www.w3schools.com/colors/colors_picker.asp For picking a suitable color for the background
+*/
+#layout {
+margin-left: auto;
+margin-right: auto;
+width: 1250px;
+}
+
+#title {
+position: relative;
+top: 20px;
+float: top;
+background-color: #96beff;
+height: 80px;
+}
+
+#audio {
+position: relative;
+left: 980px;
+}
+
+#myCanvas {
+position: relative;
+bottom: 155px;
+}
+
+#cloud {
+position: relative;
+bottom: 10px;
+left: 1020px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+#body {
+position: relative;
+top: 20px;
+background-color: #cee1ff;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#picinfo {
+position: relative;
+top: 20px;
+float: left;
+background-color: #96beff;
+text-align: center;
+z-index: 1;
+}
+
+#work {
+text-align: center;
+background-color: #cee1ff;
+padding-top: 20px;
+padding-bottom: 10px;
+position: relative;
+top: 97px;
+}
+
+#accessblock {
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+background-color: #cee1ff;
+height: 1100px;
+}
+
+#titleacc {
+text-align: center ;
+background-color: #cee1ff;
+}
+
+#acclist {
+font-family: Times-New-Romans;
+font-size: 18px;
+padding-top: 50px;	
+}
+
+#acctext {
+font-family: Times-New-Romans;
+font-size: 18px;
+padding-top: 100px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+body {
+background-color: #7ce9ff;
+}
+
+h3 {
+font-family: garamond;	
+}
+
+p {
+font-family: Times-New-Romans;
+font-size: 18px;	
+}
+
+.list {
+font-family: Times-New-Romans;
+font-size: 16px;
+}
+
+.tnr {
+font-family: Times-New-Romans;
+}	
+.workex {
+font-family: Times-New-Romans;
+}
